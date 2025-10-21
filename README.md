@@ -288,9 +288,8 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ## Contact
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/arxiv-category-validator/issues)
-- **Email:** your.email@institution.edu
-- **Twitter:** @yourusername
+- **Issues:** [GitHub Issues](https://github.com/green8-dot/arxiv-category-validator/issues)
+- **Email:** derekgreen@orbitscope.io
 
 ---
 
@@ -314,3 +313,4 @@ MIT License - see [LICENSE](LICENSE) for details
 ---
 
 **⭐ Star this repo if you find it useful!**
+
