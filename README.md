@@ -261,7 +261,7 @@ We welcome contributions! Areas for improvement:
 3. **Improve graph analysis** (author networks, semantic similarity)
 4. **Multi-language support** (non-English papers)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions welcome! Please open an issue or PR.
 
 ---
 
