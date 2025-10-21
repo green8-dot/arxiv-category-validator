@@ -99,7 +99,7 @@ non_cs_topics = {
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/arxiv-category-validator.git
+git clone https://github.com/green8-dot/arxiv-category-validator.git
 cd arxiv-category-validator
 pip install -r requirements.txt
 ```
@@ -274,7 +274,7 @@ If you use this tool in your research, please cite:
   title={arXiv Category Validator: Automated Detection of Mislabeled Papers},
   author={ML Framework Research Team},
   year={2025},
-  url={https://github.com/yourusername/arxiv-category-validator}
+  url={https://github.com/green8-dot/arxiv-category-validator}
 }
 ```
 
