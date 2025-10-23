@@ -1,6 +1,6 @@
 # arXiv Category Validator
 
-**Automated detection and correction of mislabeled papers in arXiv CS categories**
+Detection of mislabeled papers in arXiv CS categories.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -9,20 +9,20 @@
 
 ## Overview
 
-This tool identifies papers incorrectly categorized in arXiv Computer Science categories (cs.*). It uses keyword-based topic detection combined with citation graph analysis to find papers that belong to medicine, biology, physics, chemistry, or other non-CS fields.
+Identifies papers incorrectly categorized in arXiv Computer Science categories (cs.*). Uses keyword-based topic detection and citation graph analysis to find papers that belong to medicine, biology, physics, chemistry, or other non-CS fields.
 
-### Key Findings
+### Findings
 
-- **182 mislabeled papers found in cs.DC** (3.5% error rate)
-- **62.6% are medicine papers** (cancer research, clinical trials, COVID-19)
-- **23.6% are biology papers** (genomics, protein databases)
-- **96% detection accuracy** (verified by manual review)
+- 182 mislabeled papers in cs.DC (3.5% error rate)
+- 62.6% medicine papers (cancer research, clinical trials, COVID-19)
+- 23.6% biology papers (genomics, protein databases)
+- 96% detection accuracy (manual verification)
 
 ### Impact
 
-- Improves ML classifier accuracy by 3-5 percentage points
-- Cleaner datasets for research community
-- Better search/discovery for researchers
+- Improves ML classifier accuracy by 3-5pp
+- Cleaner datasets
+- Improved search/discovery
 
 ---
 
@@ -46,23 +46,22 @@ cat reports/cs_DC_mislabels.json
 
 ## Features
 
-✅ **Multi-Topic Detection**
+**Multi-Topic Detection**
 - Medicine, Biology, Chemistry, Physics, Climate Science
-- Customizable keyword lists per topic
+- Customizable keyword lists
 
-✅ **Graph-Based Analysis**
+**Graph Analysis**
 - Citation network analysis
 - Community isolation detection
 - Primary vs. secondary category validation
 
-✅ **Automated Reporting**
-- JSON export of mislabeled papers
-- Human-readable summary reports
-- arXiv-ready submission format
+**Reporting**
+- JSON export
+- Summary reports
+- arXiv submission format
 
-✅ **Reusable for All Categories**
+**Extensible**
 - Works on any cs.* category
-- Extensible to other arXiv categories
 - Configurable thresholds
 
 ---
